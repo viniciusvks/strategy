@@ -7,4 +7,9 @@ public class PatoDeCabecaVermelha extends Pato {
 		System.out.println("Sou um pato de cabeca vermelha aparecendo na tela");
 	}
 
+	@Override
+	public String getNome() {
+		return "Pato De Cabeca Vermelha";
+	}
+
 }

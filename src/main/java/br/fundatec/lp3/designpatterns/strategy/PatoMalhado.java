@@ -7,4 +7,9 @@ public class PatoMalhado extends Pato {
 		System.out.println("Sou um pato malhado aparecendo na tela");
 	}
 
+	@Override
+	public String getNome() {
+		return "Pato Malhado";
+	}
+
 }
