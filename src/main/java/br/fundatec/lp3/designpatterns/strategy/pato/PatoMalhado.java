@@ -1,9 +1,14 @@
 package br.fundatec.lp3.designpatterns.strategy.pato;
 
-import br.fundatec.lp3.designpatterns.strategy.comportamento.Grasnador;
-import br.fundatec.lp3.designpatterns.strategy.comportamento.Voador;
+import br.fundatec.lp3.designpatterns.strategy.comportamento.Squeak;
+import br.fundatec.lp3.designpatterns.strategy.comportamento.VooComAsas;
 
-public class PatoMalhado extends Pato implements Grasnador, Voador {
+public class PatoMalhado extends Pato {
+
+	public PatoMalhado() {
+		grasno = new Squeak();
+		voo = new VooComAsas();
+	}
 
 	@Override
 	public void renderizar() {
@@ -13,16 +18,6 @@ public class PatoMalhado extends Pato implements Grasnador, Voador {
 	@Override
 	public String getNome() {
 		return "Pato Malhado";
-	}
-
-	@Override
-	public void voar() {
-		System.out.println("Estou voando");
-	}
-
-	@Override
-	public void grasnar() {
-		System.out.println("Quack!");
 	}
 
 }

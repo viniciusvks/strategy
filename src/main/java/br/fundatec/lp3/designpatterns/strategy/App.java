@@ -16,37 +16,15 @@ public class App {
         Pato patoDeMadeira = new PatoDeMadeira();
         executa(patoDeMadeira);
         System.out.println("\n");
-        PatoMalhado patoMalhado = new PatoMalhado();
-        executaPatoMalhado(patoMalhado);
+        Pato patoMalhado = new PatoMalhado();
+        executa(patoMalhado);
         System.out.println("\n");
-        PatoDeCabecaVermelha patoDeCabecaVermelha = new PatoDeCabecaVermelha();
-        executaPatoDeCabecaVermelha(patoDeCabecaVermelha);
+        Pato patoDeCabecaVermelha = new PatoDeCabecaVermelha();
+        executa(patoDeCabecaVermelha);
 
     }
 
 	private static void executa(Pato pato) {
-
-		System.out.print(pato.getNome() + ": ");
-        pato.renderizar();
-        System.out.print(pato.getNome() + ": ");
-        pato.nadar();
-
-	}
-
-	private static void executaPatoMalhado(PatoMalhado pato) {
-
-		System.out.print(pato.getNome() + ": ");
-        pato.renderizar();
-        System.out.print(pato.getNome() + ": ");
-        pato.nadar();
-        System.out.print(pato.getNome() + ": ");
-        pato.grasnar();
-        System.out.print(pato.getNome() + ": ");
-        pato.voar();
-
-	}
-
-	private static void executaPatoDeCabecaVermelha(PatoDeCabecaVermelha pato) {
 
 		System.out.print(pato.getNome() + ": ");
         pato.renderizar();

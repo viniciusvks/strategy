@@ -1,7 +1,7 @@
 package br.fundatec.lp3.designpatterns.strategy.comportamento;
 
-public interface Grasnador {
+public interface Grasno {
 
-	public void grasnar();
+	public void executar();
 
 }

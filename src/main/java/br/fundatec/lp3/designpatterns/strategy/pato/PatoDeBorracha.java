@@ -1,6 +1,14 @@
 package br.fundatec.lp3.designpatterns.strategy.pato;
 
+import br.fundatec.lp3.designpatterns.strategy.comportamento.Mudo;
+import br.fundatec.lp3.designpatterns.strategy.comportamento.NaoVoa;
+
 public class PatoDeBorracha extends Pato {
+
+	public PatoDeBorracha() {
+		grasno = new Mudo();
+		voo = new NaoVoa();
+	}
 
 	@Override
 	public String getNome() {

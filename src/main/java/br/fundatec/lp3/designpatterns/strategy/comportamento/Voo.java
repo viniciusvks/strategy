@@ -1,7 +1,7 @@
 package br.fundatec.lp3.designpatterns.strategy.comportamento;
 
-public interface Voador {
+public interface Voo {
 
-	public void voar();
+	public void executar();
 
 }
