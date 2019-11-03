@@ -1,4 +1,4 @@
-package br.fundatec.lp3.designpatterns.strategy;
+package br.fundatec.lp3.designpatterns.strategy.pato;
 
 public class PatoDeBorracha extends Pato {
 
@@ -10,16 +10,6 @@ public class PatoDeBorracha extends Pato {
 	@Override
 	public void renderizar() {
 		System.out.println("Sou um pato de madeira aparecendo na tela");
-	}
-
-	@Override
-	public void grasnar() {
-		//Nao faz nada
-	}
-
-	@Override
-	public void voar() {
-		//Nao faz nada
 	}
 
 }
