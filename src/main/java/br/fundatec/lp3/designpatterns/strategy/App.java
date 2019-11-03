@@ -17,8 +17,6 @@ public class App {
         pato.nadar();
         System.out.print(pato.getNome() + ": ");
         pato.grasnar();
-        System.out.print(pato.getNome() + ": ");
-        pato.voar();
 
 	}
 

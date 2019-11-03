@@ -12,10 +12,6 @@ public abstract class Pato {
 		System.out.println("Estou nadando");
 	}
 
-	public void voar() {
-		System.out.println("Estou voando");
-	}
-
 	public abstract void renderizar();
 
 }
