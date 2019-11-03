@@ -4,8 +4,8 @@ public class App {
 
     public static void main( String[] args ) {
 
-        Pato patoMalhado = new PatoMalhado();
-        executa(patoMalhado);
+        Pato pato = new PatoDeBorracha();
+        executa(pato);
 
     }
 
