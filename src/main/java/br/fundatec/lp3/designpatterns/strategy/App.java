@@ -4,8 +4,11 @@ public class App {
 
     public static void main( String[] args ) {
 
-        Pato pato = new PatoDeBorracha();
-        executa(pato);
+        Pato patoDeBorracha = new PatoDeBorracha();
+        executa(patoDeBorracha);
+        System.out.println("\n");
+        Pato patoDeMadeira = new PatoDeMadeira();
+        executa(patoDeMadeira);
 
     }
 
