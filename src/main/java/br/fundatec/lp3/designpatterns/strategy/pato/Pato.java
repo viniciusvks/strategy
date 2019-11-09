@@ -1,11 +1,11 @@
 package br.fundatec.lp3.designpatterns.strategy.pato;
 
-import br.fundatec.lp3.designpatterns.strategy.comportamento.Grasno;
+import br.fundatec.lp3.designpatterns.strategy.comportamento.Grasnado;
 import br.fundatec.lp3.designpatterns.strategy.comportamento.Voo;
 
 public abstract class Pato {
 
-	protected Grasno grasno;
+	protected Grasnado grasnado;
 	protected Voo voo;
 
 	public abstract String getNome();
@@ -15,7 +15,7 @@ public abstract class Pato {
 	}
 
 	public void grasnar() {
-		grasno.executar();
+		grasnado.executar();
 	}
 
 	public void voar() {

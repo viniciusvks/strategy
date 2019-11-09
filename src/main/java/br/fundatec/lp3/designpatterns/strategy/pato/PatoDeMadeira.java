@@ -6,7 +6,7 @@ import br.fundatec.lp3.designpatterns.strategy.comportamento.NaoVoa;
 public class PatoDeMadeira extends Pato {
 
 	public PatoDeMadeira() {
-		grasno = new Mudo();
+		grasnado = new Mudo();
 		voo = new NaoVoa();
 	}
 

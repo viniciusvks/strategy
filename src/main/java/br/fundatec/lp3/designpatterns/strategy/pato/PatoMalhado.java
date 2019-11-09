@@ -6,7 +6,7 @@ import br.fundatec.lp3.designpatterns.strategy.comportamento.VooComAsas;
 public class PatoMalhado extends Pato {
 
 	public PatoMalhado() {
-		grasno = new Squeak();
+		grasnado = new Squeak();
 		voo = new VooComAsas();
 	}
 

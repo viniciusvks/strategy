@@ -1,6 +1,6 @@
 package br.fundatec.lp3.designpatterns.strategy.comportamento;
 
-public class Quack implements Grasno {
+public class Quack implements Grasnado {
 
 	@Override
 	public void executar() {
